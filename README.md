@@ -16,6 +16,12 @@ This repo contains the procurement application documentation and links to all ot
 # Key Entities and Lifecycle
 |Module | Entity | Description | LifeCycle | Transactions|
 |:---|:---|:---|:---|:---|
-|Requisition Management | Purchase Request| This is the very first request that is raised from internal employees of the organization to purchase any item | create/update/delete/approve/reject/archive | [link-to](./transactions/purchase-request-txns.md)| 
-|Requisition Management | Purchase Requisition| Any approved purchase request will trigger a new entity Purchase Requisition | create/update/delete/approve/reject/archive | link|
-|Requisition Management | Purchase Order | Any approved purchase request will trigger a new entity Purchase Requisition | create/update/delete/approve/reject/archive | link|
+|**Requisition Management** | Purchase Request| This is the very first request that is raised from internal employees of the organization to purchase any item | create/update/delete/approve/reject/archive | [link-to](./transactions/purchase-request-txns.md)| 
+| | Purchase Requisition| Any approved purchase request will trigger a new entity Purchase Requisition | create/update/delete/approve/reject/archive | link|
+| | Purchase Order | Any approved purchase request will trigger a new entity Purchase Requisition | create/update/delete/approve/reject/archive | link|
+
+
+# Key UseCases
+|Module | UseCase | Description | Actor | Design Link | UseCase Details| Api Specs |
+|:---|:---|:---|:---|:---|:---|:---|
+|**Requisition Management** | Create Purchase Request | This usecase describes how the internal employees raise Purchase Request | Admin/Approver/Requestor | [link-to](./transactions/purchase-request-txns.md)| [link-to](./UseCases/Requistion-Management-UseCases.md#create-purchase-request) | [link-to](./api-specs/Requistion-Management-api-spec.md#create-purchase-request |
