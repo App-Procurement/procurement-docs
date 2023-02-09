@@ -26,3 +26,9 @@ This repo contains the procurement application documentation and links to all ot
 |:---|:---|:---|:---|:---|:---|:---|
 |**Requisition Management** | Create Purchase Request | This usecase describes how the internal employees raise Purchase Request | Admin/Approver/Requestor | [link-to](./transactions/purchase-request-txns.md)| [link-to](./UseCases/Requistion-Management-UseCases.md#create-purchase-request) | [link-to](./api-specs/Requistion-Management-api-spec.md#create-purchase-request)|
 |**Requisition Management** | Update Purchase Request | This usecase describes how the internal employees raise Purchase Request | Admin/Approver/Requestor | [link-to](./transactions/purchase-request-txns.md)| [link-to](./UseCases/Requistion-Management-UseCases.md#create-purchase-request) | [link-to](./api-specs/Requistion-Management-api-spec.md#create-purchase-request)|
+
+# Architecture
+
+![alt](./images/procurement.jpg)
+
+
