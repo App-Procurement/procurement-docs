@@ -42,8 +42,7 @@
    <li>If the approver approves the request, the procurement process can continue, and the requested items or services can be procured.</li>
    </ol>
 
-    [Figma Link](https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2082%3A6113&node-id=5948%3A18704&viewport=394%2C663%2C0.04&scaling=scale-down-width&starting-point-node-id=5948%3A19947)
-
+   [Figma Link](https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2082%3A6113&node-id=5948%3A19050&viewport=394%2C663%2C0.04&scaling=scale-down-width&starting-point-node-id=5948%3A19947)
 
 # Track Purchase Request
 
@@ -98,7 +97,57 @@
 
 
 # Approve Purchase Request
-  
+<h2>Actor</h2>
+<ul>
+  <li>Approver</li>
+  <li>Requestor</li>
+</ul>
+
+<h2>Use Case Description</h2>
+<p>The Purchase Request Screen for Approver is used to review and approve purchase requests submitted by requestors. The approver can view the request details, edit the request if necessary, approve the request, cancel the request, and add comments.</p>
+
+<h2>Trigger</h2>
+<p>The trigger for this use case is when a requestor submits a purchase request.</p>
+
+<h2>Pre Condition</h2>
+<p>The approver has logged in to the system.</p>
+<p>There is at least one pending purchase request in the system.</p>
+<p>The Approver has the necessary permissions to approve or reject the purchase requests.</p>
+
+<h2>Post condition</h2>
+<ul>
+<li>The purchase request is either approved or cancelled.</li>
+<li>The approver has added comments to the request if necessary.</li>
+<li>The system sends a notification to the Requester informing them of the decision.</li>
+</ul>
+
+<h2>Normal Flow</h2>
+<ul>
+<li>The Approver logs in to the system and navigates to the Purchase Request screen</li>
+<li>The Approver reviews the list of purchase requests in the table, or applies filters to view specific requests.</li>
+<li>The Approver selects a purchase request from the table by clicking on it.</li>
+<li>The system displays the details of the selected purchase request, including the requestor name, expected delivery date, location, total cost, and line item details.</li>
+<li>The Approver reviews the purchase request and any attached files, such as quotes or invoices.</li>
+<li>If the purchase request meets the Approver's standards, they click the "Approve" button.</li>
+<li>The system updates the status of the purchase request to "Approved" and sends a notification to the Requester.</li>
+<li>If the purchase request does not meet the Approver's standards, they click the "Reject" button.</li>
+<li>The system updates the status of the purchase request to "Rejected" and sends a notification to the Requester explaining the reason for rejection.
+</li>
+<li>If the Approver wants to modify the purchase request, they click the "Modify" button.</li>
+<li>The system allows the Approver to modify the purchase request and resubmit it for approval.</li>
+<li>Once the Approver has taken action on the purchase request, they return to the Purchase Request screen to review any remaining purchase requests.</li>
+</ul>
+
+<h2>Alternative flow</h2>
+<ul>
+<li>If the Approver needs additional information about the purchase request, they add a comment to the request and contact the Requester to provide the necessary details.</li>
+
+</ul>
+
+ [Figma Link](https://www.figma.com/proto/UKoZ5CtwRdEfwWAQezbpkz/Synectiks-procurement?page-id=2082%3A6113&node-id=5973%3A21173&viewport=394%2C663%2C0.04&scaling=scale-down-width&starting-point-node-id=5948%3A19947)
+
+
+
 
 
 
