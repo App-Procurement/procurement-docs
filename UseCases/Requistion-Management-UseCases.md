@@ -48,7 +48,7 @@
 
 <h2>Actor</h2>
 <ul>
-  <li>Admin</li>
+  <li>Admin</li> 
   <li>Approver</li>
   <li>Requestor</li>
 </ul>
